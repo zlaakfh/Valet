@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'pilotnet_inference = driving_inference.pilotnet_inference:main',
+            'mobilenet_inference = driving_inference.mobilenet_inference:main',
         ],
     },
 )
